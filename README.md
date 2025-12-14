@@ -56,18 +56,7 @@ Follow these steps to run Kode It locally.
     npm install
     ```
 
-3.  **Configure Environment Variables:**
-    Create a `.env` file in the root directory and add your Firebase configuration:
-    ```env
-    VITE_API_KEY=your_api_key
-    VITE_AUTH_DOMAIN=your_project.firebaseapp.com
-    VITE_PROJECT_ID=your_project_id
-    VITE_STORAGE_BUCKET=your_project.appspot.com
-    VITE_MESSAGING_SENDER_ID=your_sender_id
-    VITE_APP_ID=your_app_id
-    ```
-
-4.  **Start the development server:**
+3.  **Start the development server:**
     ```bash
     npm run dev
     ```
